@@ -248,9 +248,7 @@ def update_product(
     return {"error": "Product not found"}
 
 
-# ------------------------------------------------
 # DELETE PRODUCT
-# ------------------------------------------------
 
 @app.delete("/products/{product_id}")
 def delete_product(product_id: int):
